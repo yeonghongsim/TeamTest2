@@ -9,4 +9,13 @@ public class TestController {
 	public String index() {
 		return "index";
 	}
+	
+	@GetMapping("/hong")
+	public String hong() {
+		return "hong";
+	}
+	
+	
+	
+	
 }
